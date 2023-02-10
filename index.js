@@ -10,7 +10,7 @@ db();
 app.use(express.json());
 app.use(
     cors({
-      origin: "*",
+      origin: "https://now-fe.netlify.app",
     })
   );
 
